@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		features= {"AllFeatureFile"},
 		glue= {"StepDefination"},
-		dryRun=true
+		dryRun=false
 		)
 public class RunnerTest {
 
